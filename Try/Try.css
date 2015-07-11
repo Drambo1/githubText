@@ -1,0 +1,33 @@
+body 
+{
+    background-color: azure;
+}
+abbr[title]
+{
+    border-bottom: 1px dotted #000;
+}
+/*在所有浏览器中防止上下标sub&sup影响行高line-height gist.github.com/413930*/
+sub,sup
+{
+    font-size: 65%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup
+{
+    top:-0.5em;
+}
+sub
+{
+    bottom: -0.25em;
+}
+pre
+{
+    background-color: beige;
+    white-space: pre-wrap;
+}
+ruby
+{
+    font-size: 150%
+}
